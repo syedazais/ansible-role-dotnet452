@@ -1,6 +1,6 @@
 ---
  - name: Validate dotnet version
-   hosts: dbservers
+   hosts: all
    tasks:
     win_reg_stat:
     path: HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
