@@ -4,7 +4,6 @@
   gather_facts: false
   tasks:
   - name: Validate dotnet version
-    hosts: all
     win_reg_stat:
     path: HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
     name: Version
