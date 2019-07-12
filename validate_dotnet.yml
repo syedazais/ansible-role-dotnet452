@@ -1,4 +1,5 @@
 ---
+
  - name: Validate dotnet version
    hosts: all
    tasks:
