@@ -5,8 +5,8 @@
   tasks:
   tasks:
     - command: ansible --version
-    - debug:
-       var: ansible_env
+#   - debug:
+#     var: ansible_env
   #- name: Validate dotnet version
   #  win_reg_stat:
   #  path: HKLM:\SOFTWARE\Microsoft\NET Framework Setup\NDP\v4\Full
