@@ -1,0 +1,12 @@
+---
+- hosts: all
+  gather_facts: false
+  tasks:
+  - name: Install Microsoft .NET Framework
+    win_feature:
+     name: NET-Framework-Core
+     state: present
+     source: C:\temp\dotNetFramework4.6.1.exe
+     include_sub_features: no
+     include_management_tools: yes
+    register: result
