@@ -1,9 +1,7 @@
 ---
-
-- hosts: all
-  gather_facts: false
-  tasks:
-  tasks:
+ - hosts: all
+   gather_facts: false
+   tasks:
     - command: ansible --version
 #   - debug:
 #     var: ansible_env
