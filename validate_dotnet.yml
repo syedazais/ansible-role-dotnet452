@@ -1,8 +1,8 @@
 ---
  - hosts: all
-   gather_facts: false
-   tasks:
-    - command: ansible --version
+   gather_facts: true
+#   tasks:
+#    - command: ansible --version
 #   - debug:
 #     var: ansible_env
   #- name: Validate dotnet version
